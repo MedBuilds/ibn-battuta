@@ -1,6 +1,6 @@
 function Header(){
     return (
-        <header className="flex justify-between items-center gap-5 p-3 m-3 rounded-2xl">
+        <header className="flex justify-between items-center gap-5 p-3 m-3 rounded-2xl bg-white">
             {/* Logo */}
             <div className="flex gap-2 items-center">
                 <div className="bg-primary p-1 rounded-[5px]" title="Ibn Battuta">
