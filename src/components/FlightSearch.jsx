@@ -122,7 +122,7 @@ function FlightSearch(){
                         value={origin}
                         onChange={saveOrigin}
                         placeholder="City or airport"
-                        className="outline-none p-1 bg-primary/5 rounded focus:border-b focus:border-primary"/>
+                        className="w-full outline-none p-1 bg-primary/5 rounded focus:border-b focus:border-primary"/>
                 </label>
 
                 {/* Destination */}
@@ -136,7 +136,7 @@ function FlightSearch(){
                         value={destination}
                         onChange={saveDestination}
                         placeholder="City or airport"
-                        className="outline-none p-1 bg-primary/5 rounded focus:border-b focus:border-primary"/>
+                        className="w-full outline-none p-1 bg-primary/5 rounded focus:border-b focus:border-primary"/>
                 </label>
 
                 {/* Departure Date */}
@@ -149,7 +149,7 @@ function FlightSearch(){
                         type="date" 
                         value={departureDate}
                         onChange={saveDepartureDate}
-                        className="outline-none p-1 bg-primary/5 rounded focus:border-b focus:border-primary"/>
+                        className="w-full outline-none p-1 bg-primary/5 rounded focus:border-b focus:border-primary"/>
                 </label>
                 
                 {/* Return Date */}
@@ -163,7 +163,7 @@ function FlightSearch(){
                             type="date" 
                             value={returnDate}
                             onChange={saveReturnDate}
-                            className="outline-none p-1 bg-primary/5 rounded focus:border-b focus:border-primary"/>
+                            className="w-full outline-none p-1 bg-primary/5 rounded focus:border-b focus:border-primary"/>
                     </label>
                 )}
             </div>
