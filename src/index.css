@@ -8,7 +8,7 @@
     height: 100dvh;
     display: flex;
     flex-direction: column;
-    background-image: url(./assets/background-image.jpg);
+    background-image: url(./assets/background-image.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
