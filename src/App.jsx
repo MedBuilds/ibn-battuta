@@ -1,16 +1,16 @@
-import './App.css'
-import Header from './components/Header'
-import Hero from './components/Hero'
-import Footer from './components/Footer'
+import "./App.css";
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
+import Footer from "./components/Footer/Footer";
 
 function App() {
-  return (
-    <>
-      <Header/>
-      <Hero/>
-      <Footer/>
-    </>
-  )
+    return (
+        <>
+            <Header />
+            <Hero />
+            <Footer />
+        </>
+    );
 }
 
-export default App
+export default App;

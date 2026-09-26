@@ -1,11 +1,11 @@
 import Copyright from "./Copyright";
 
-function Footer(){
+function Footer() {
     return (
         <footer>
-            <Copyright/>
+            <Copyright />
         </footer>
-    )
+    );
 }
 
 export default Footer;
